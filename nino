@@ -1,0 +1,17 @@
+public class IfElseArithmetic {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+
+        if (a > b) {
+            int sum = a + b;
+            System.out.println("Since a is greater than b, the sum is: " + sum);
+        } else if (a < b) {
+            int difference = b - a;
+            System.out.println("Since a is less than b, the difference is: " + difference);
+        } else {
+            int product = a * b;
+            System.out.println("Since a and b are equal, the product is: " + product);
+        }
+    }
+}
